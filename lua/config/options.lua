@@ -4,7 +4,6 @@
 
 -- disable some stuff
 vim.opt.relativenumber = false
-vim.g.minipairs_disable = true
 
 -- Python
 vim.g.lazyvim_python_lsp = "ty"
