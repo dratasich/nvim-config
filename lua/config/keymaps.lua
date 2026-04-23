@@ -6,5 +6,10 @@
 vim.keymap.set("n", "<leader>fs", ":w<CR>")
 vim.keymap.set("i", "<leader>fs", "<Esc>:w<CR>i")
 
+-- Find all files including gitignored
+vim.keymap.set("n", "<leader>fF", function()
+  Snacks.picker.files({ hidden = true, ignored = true })
+end, { desc = "Find files (incl. gitignored)" })
+
 -- jk | Escaping!
 vim.keymap.set("i", "jk", "<ESC>")
