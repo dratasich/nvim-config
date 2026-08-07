@@ -20,7 +20,6 @@ return {
             yaml = {
               format = {
                 enable = true,
-                singleQuote = false,
                 proseWrap = "preserve",
               },
             },
