@@ -28,4 +28,7 @@ return {
       },
     },
   },
+  {
+    "immanuwell/droast.nvim",
+  },
 }
